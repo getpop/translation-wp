@@ -20,7 +20,8 @@
         "getpop/translation-contracts-implementation": "dev-master"
     },
     "require": {
-        "php" : "~7.1"
+        "php" : "~7.1",
+        "getpop/translation": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
