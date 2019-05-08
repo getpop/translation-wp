@@ -16,6 +16,8 @@
             "homepage": "https://getpop.org"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "provide": {
         "getpop/translation-contracts-implementation": "dev-master"
     },
