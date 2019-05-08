@@ -1,0 +1,3 @@
+services:
+    \PoP\Translation\Contracts\TranslationAPI:
+        class: \PoP\TranslationWP\ContractImplementations\TranslationAPI
