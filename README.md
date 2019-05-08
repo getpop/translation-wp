@@ -18,14 +18,6 @@ Via Composer
 ``` bash
 $ composer require getpop/translation-wp
 ```
-<!--
-## Usage
-
-``` php
-$skeleton = new PoP\TranslationWP();
-echo $skeleton->echoPhrase('Hello, League!');
-```
--->
 
 ## Change log
 
