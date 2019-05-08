@@ -16,6 +16,9 @@
             "homepage": "https://getpop.org"
         }
     ],
+    "provide": {
+        "getpop/translation-contracts-implementation": "dev-master"
+    },
     "require": {
         "php" : "~7.1"
     },
