@@ -32,7 +32,10 @@
     "autoload": {
         "psr-4": {
             "PoP\\TranslationWP\\": "src"
-        }
+        },
+        "files": [
+            "initialize.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
