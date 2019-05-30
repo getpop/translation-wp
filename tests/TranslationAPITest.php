@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace PoP\TranslationWP;
 
-use PoP\Translation\Facades\TranslationAPI;
+use PoP\Translation\Facades\TranslationAPIFacade;
 
 class TranslationAPITestCase extends \PHPUnit\Framework\TestCase
 {
@@ -11,7 +11,7 @@ class TranslationAPITestCase extends \PHPUnit\Framework\TestCase
      */
     public function testTranslate(): void
     {
-        $translationapi = TranslationAPI::getInstance();
+        $translationapi = TranslationAPIFacade::getInstance();
         $this->assertEquals(
             'There is no translation for this yet, sorry!',
             $translationapi->__('There is no translation for this yet, sorry!')
