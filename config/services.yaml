@@ -1,4 +1,4 @@
 services:        
     translation_api:
-        class: \PoP\TranslationWP\ContractImplementations\TranslationAPI
+        class: \PoP\TranslationWP\TranslationAPI
         public: true
