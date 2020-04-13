@@ -19,11 +19,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "provide": {
-        "getpop/translation-contracts-implementation": "dev-master"
+        "getpop/translation-contracts-implementation": "~0.1"
     },
     "require": {
         "php" : "~7.1",
-        "getpop/translation": "dev-master"
+        "getpop/translation": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
