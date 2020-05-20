@@ -1,2 +1,2 @@
 <?php
-\PoP\TranslationWP\Component::init();
+//\PoP\TranslationWP\Component::initialize();
