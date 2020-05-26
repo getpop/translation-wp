@@ -25,7 +25,9 @@ composer require getpop/translation-wp
 Initialize the component:
 
 ``` php
-\PoP\TranslationWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\TranslationWP\Component::class,
+]);
 ```
 
 ## Standards
