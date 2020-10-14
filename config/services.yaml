@@ -1,4 +1,6 @@
-services:        
-    translation_api:
-        class: \PoP\TranslationWP\TranslationAPI
+services:
+    _defaults:
         public: true
+
+    PoP\Translation\TranslationAPIInterface:
+        class: \PoP\TranslationWP\TranslationAPI
