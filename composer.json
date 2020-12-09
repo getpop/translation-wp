@@ -22,7 +22,7 @@
         "getpop/translation-contracts-implementation": "~0.1"
     },
     "require": {
-        "php": "~7.4",
+        "php": "^7.4|^8.0",
         "getpop/translation": "dev-master"
     },
     "require-dev": {
